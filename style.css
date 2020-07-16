@@ -1,0 +1,275 @@
+body {
+	font-family: 'Signika', sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 26%;
+	margin-right: 26%;
+	color: #404040;
+	height: 80px;
+	margin-top: 20px;
+}
+
+.title {
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	padding-right: 0px;
+}
+
+.menu > * {
+	margin-right: 40px;
+}
+
+.menu > *:last-child {
+	margin-right: 0px;
+}
+
+.menu > * > a {
+	color: #242424;
+	letter-spacing: 2px;
+}
+
+.link {
+	border-bottom: 3px solid white;
+}
+
+.link:hover {
+	border-bottom: 3px solid #404040;
+	padding-bottom: 5px;
+	transition: 1s;
+}
+
+#link-active {
+	border-bottom: 3px solid #404040;
+	padding-bottom: 5px;
+}
+
+.contact > a:last-child {
+	margin-right: 0px;
+	padding-left: 0px;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 26%;
+	margin-right: 26%;
+	color: #404040;
+	height: 600px;
+	max-width: 100%;
+}
+
+.img-welcome > img {
+	width: 650px;
+}
+
+.text {
+	width: 200px;
+	padding: 5px;
+}
+
+.text-title {
+	font-size: 40px;
+	color: #38c96a;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+button {
+	background-color: rgb(51, 224, 120);
+	color: white;
+	padding: 10px;
+	margin-top: 30px;
+	width: 100%;
+	border: none;
+	border-radius: 20px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(74, 224, 134);
+}
+
+footer {
+	height: 55px;
+	background-color: #89f0ad;
+}
+
+.footer-bar {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 26%;
+	margin-right: 26%;
+	color: #404040;
+}
+
+.infos {
+	padding: 15px;
+	padding-left: 0px;
+}
+
+.logos {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 6px;
+}
+
+.logos > a {
+	cursor: pointer;
+}
+
+.logos > a > img {
+	height: 40px;
+	width: 40px;
+}
+
+/*
+PAGE SERVICES
+*/
+
+.main-services {
+	color: #404040;
+	height: 600px;
+	max-width: 100%;
+}
+
+.title-services {
+	height: 80px;
+	max-height: 80px;
+	background-color: #89f0ad;
+}
+
+.text-title-services {
+	font-size: 30px;
+	font-weight: bolder;
+	margin-left: 26%;
+	margin-right: 26%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 26%;
+	margin-right: 26%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	height: 170px;
+	max-height: 170px;
+}
+
+.img-services > img {
+	height: 80px;
+}
+
+.audits, .accompagnement, .aide, .etudes {
+	width: 175px;
+	word-wrap: break-word;
+	text-align: center;
+	font-size: 20px;
+}
+
+.soumission {
+	background-color: #e6e6e6;
+	height: 230px;
+	max-height: 230px;
+}
+
+.contact-text {
+	font-size: 30px;
+	font-weight: bolder;
+	margin-left: 26%;
+	margin-right: 26%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.btn-text {
+	margin-left: 26%;
+	margin-right: 26%;
+	width: 225px;
+	margin: 0 auto;
+	font-weight: bolder;
+}
+
+.btn-text > form > button {
+	padding: 20px;
+	border-radius: 30px;
+}
+
+/*
+PAGE EQUIPE
+*/
+
+.main-equipe {
+	color: #404040;
+	height: 600px;
+	max-width: 100%;
+}
+
+.staff {
+	margin-left: 26%;
+	margin-right: 26%;
+	height: 520px;
+	max-height: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.staff > * {
+	width: 175px;
+	margin-top: 30px;
+}
+
+.staff > * > * {
+	text-align: center;
+}
+
+.img-equipe > img {
+	height: 120px;
+}
+
+.text-staff-normal {
+	font-size: 20px;
+}
+
+/*
+PAGE CONTACT
+*/
+
+.main-contact {
+	color: #404040;
+	height: 600px;
+	max-width: 100%;
+}
+
+.contact-infos {
+	margin-left: 26%;
+	margin-right: 26%;
+	height: 520px;
+	max-height: 600px;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.contact-infos-title {
+	font-weight: bolder;
+	font-size: 20px;
+}
